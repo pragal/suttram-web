@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fffaf3" />
+  <meta name="description" content="Suttram (சுற்றம்) brings family, occasions, gifts and memories into one private space. Discover the Suttram experience for iPhone and Android." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://suttram.pragalya.com/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Suttram — Family. Occasions. Memories." />
+  <meta property="og:description" content="Relationships, occasions, gifts and memories — all in one place for your family." />
+  <meta property="og:url" content="https://suttram.pragalya.com/about" />
+  <meta property="og:image" content="https://suttram.pragalya.com/assets/suttram-icon.png" />
+  <title>சுற்றம் | Suttram — Family. Occasions. Memories.</title>
+  <link rel="icon" href="/assets/suttram-icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      color-scheme: light;
+      --cream: #fffaf3;
+      --paper: #fffdf9;
+      --white: #fff;
+      --ink: #29272a;
+      --muted: #6e6762;
+      --maroon: #B6072C;
+      --deep: #8d0926;
+      --gold: #F2AE0A;
+      --orange: #F26515;
+      --pink: #CF3F5D;
+      --green: #50AF67;
+      --blue: #2D7ECA;
+      --line: #eaded3;
+      --shadow: 0 24px 68px rgba(91, 53, 42, .09);
+      font-family: 'DM Sans', 'Noto Sans Tamil', sans-serif;
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);overflow-x:hidden}
+    h1,h2,h3,h4,p,figure{margin:0}
+    h1,h2,h3{font-family:'Manrope','Noto Sans Tamil',sans-serif}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+    .skip{position:absolute;left:15px;top:-100px;z-index:50;background:#fff;padding:12px}
+    .skip:focus{top:12px}
+    .shell{width:min(1200px,calc(100% - 72px));margin:0 auto}
+    .header{position:sticky;top:0;z-index:20;background:rgba(255,253,249,.94);backdrop-filter:blur(18px);border-bottom:1px solid rgba(125,59,42,.1)}
+    .header-inner{height:93px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .logo{display:block;width:62px;flex-shrink:0;line-height:0}
+    .logo img{display:block;width:100%;height:auto}
+    .nav{display:flex;align-items:center;gap:36px;margin-left:auto}
+    .nav a{font-size:13px;font-weight:700;color:#625854;transition:color .18s}
+    .nav a:hover{color:var(--maroon)}
+    .header-actions{display:flex;align-items:center;gap:16px}
+    .language-switch{display:flex;align-items:center;padding:4px;border:1px solid #e6d9cf;border-radius:99px;background:#fff}
+    .language-switch button{border:0;border-radius:99px;background:transparent;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer;color:#8b7670;line-height:1.2;min-width:36px}
+    .language-switch button[aria-pressed="true"]{color:#fff;background:var(--maroon)}
+    .header-soon{border:1px solid #e9d4d7;color:var(--maroon);background:#fff2f2;border-radius:99px;font-size:11px;letter-spacing:.08em;font-weight:800;padding:12px 16px;text-transform:uppercase;white-space:nowrap}
+    .hero{position:relative;background:radial-gradient(ellipse 53% 75% at 78% 50%,#fbecdf 0,transparent 76%),var(--cream);overflow:hidden}
+    .hero::before{content:'';position:absolute;width:650px;height:650px;border-radius:50%;border:1px solid rgba(164,63,65,.075);right:-160px;top:-200px;pointer-events:none}
+    .hero-inner{min-height:685px;padding:83px 0 92px;display:grid;grid-template-columns:.95fr 1.05fr;align-items:center;gap:36px;position:relative}
+    .eyebrow{font-size:11px;font-weight:800;letter-spacing:.19em;text-transform:uppercase;color:#9b5b4b;display:flex;align-items:center;gap:12px}
+    .color-rule{width:31px;height:5px;border-radius:99px;background:linear-gradient(90deg,var(--gold) 0 24%,var(--orange) 24% 48%,var(--pink) 48% 70%,var(--green) 70% 85%,var(--blue) 85%)}
+    h1{font-size:clamp(42px,4.5vw,64px);line-height:1.18;letter-spacing:-.058em;font-weight:800;margin:25px 0 24px}
+    .maroon{color:var(--maroon)}
+    .hero-text{font-size:17px;line-height:1.88;color:var(--muted);max-width:525px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:32px}
+    .action{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:0 22px;min-height:54px;border-radius:11px;font-size:14px;font-weight:800;transition:transform .18s,background .18s}
+    .action:hover{transform:translateY(-2px)}
+    .action.primary{background:var(--maroon);color:#fff;box-shadow:0 12px 24px rgba(182,7,44,.16)}
+    .action.primary:hover{background:var(--deep)}
+    .action.outline{background:#fff9f4;border:1px solid #decac2;color:var(--maroon)}
+    .hero-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:33px;color:#7a6c64;font-size:12px;font-weight:700}
+    .hero-meta span{display:inline-flex;align-items:center;gap:8px}
+    .hero-meta svg{width:17px;height:17px;color:var(--green)}
+    .hero-art{position:relative;min-height:590px;isolation:isolate}
+    .hero-art::before{content:'';position:absolute;inset:12% 0 9%;border-radius:50%;background:radial-gradient(ellipse,#f3dcd2 0%,#f8e9dd 43%,rgba(248,233,221,0) 72%);z-index:-1}
+    .phone{display:block;height:auto;object-fit:contain;filter:drop-shadow(0 21px 26px rgba(74,38,33,.15));pointer-events:none;user-select:none}
+    .hero-art .phone{position:absolute;width:min(52%,296px)}
+    .hero-art .phone.iphone{top:0;left:4%;z-index:2;transform:rotate(-5deg)}
+    .hero-art .phone.android{top:8%;right:0;z-index:1;transform:rotate(5deg)}
+    .showcase-label{position:absolute;left:50%;bottom:-24px;transform:translateX(-50%);white-space:nowrap;z-index:3;color:#8a6860;font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+    .soft-divider{height:5px;background:linear-gradient(90deg,var(--gold),var(--orange),var(--maroon),var(--pink),var(--green),var(--blue))}
+    .section{padding:104px 0}
+    .section-label{font-size:11px;font-weight:800;letter-spacing:.19em;text-transform:uppercase;color:var(--maroon);margin-bottom:16px}
+    h2{font-size:clamp(31px,3.25vw,45px);line-height:1.25;letter-spacing:-.055em;font-weight:800}
+    .section-heading{max-width:720px;margin-bottom:44px}
+    .section-heading p{color:var(--muted);line-height:1.85;font-size:16px;margin-top:15px}
+    .promise{background:#fff}
+    .promises{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .promise-item{border:1px solid var(--line);background:#fffefa;border-radius:16px;padding:33px 31px 35px;min-height:240px}
+    .promise-icon{width:59px;height:59px;border-radius:15px;display:grid;place-items:center;margin-bottom:26px}
+    .promise-icon svg{width:31px;height:31px;stroke-width:1.8;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+    .promise-item:nth-child(1) .promise-icon{background:#f8e6e7;color:var(--maroon)}
+    .promise-item:nth-child(2) .promise-icon{background:#fff0d9;color:var(--orange)}
+    .promise-item:nth-child(3) .promise-icon{background:#eaf2e7;color:var(--green)}
+    h3{font-size:20px;letter-spacing:-.035em;margin-bottom:11px}
+    .promise-item p{font-size:14px;line-height:1.82;color:var(--muted)}
+    .feature-section{background:var(--cream);border-top:1px solid #f3e9e1}
+    .feature-section.alt{background:#fff}
+    .feature-grid{display:grid;grid-template-columns:.85fr 1.15fr;align-items:center;gap:75px}
+    .feature-section.alt .feature-copy{order:2}
+    .feature-section.alt .visual-stage{order:1}
+    .feature-copy h2{margin-bottom:21px}
+    .feature-copy>p{font-size:16px;line-height:1.92;color:var(--muted)}
+    .feature-points{display:grid;gap:18px;margin-top:32px}
+    .feature-point{display:flex;align-items:flex-start;gap:12px;font-size:14px;font-weight:700;color:#4b4240;line-height:1.6}
+    .feature-point::before{content:'✓';flex:0 0 23px;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;background:#e8f0e5;color:var(--green);font-size:12px;font-weight:800}
+    .visual-stage{position:relative;width:100%;margin:0;isolation:isolate}
+    .visual-stage::before{content:'';position:absolute;inset:17% 2% 16%;border-radius:50%;background:radial-gradient(ellipse,#f4e9df 0%,rgba(244,233,223,0) 70%);z-index:-1}
+    .feature-section.alt .visual-stage::before{background:radial-gradient(ellipse,#f6ebe4 0%,rgba(246,235,228,0) 70%)}
+    .device-pair{height:580px;max-width:625px;margin:0 auto;position:relative}
+    .device-pair .phone{position:absolute;width:min(48%,288px)}
+    .device-pair .iphone{top:8px;left:9%;z-index:2;transform:rotate(-4deg)}
+    .device-pair .android{top:43px;right:6%;z-index:1;transform:rotate(4deg)}
+    .device-caption{display:flex;align-items:center;justify-content:center;gap:14px;font-size:11px;font-weight:800;letter-spacing:.11em;color:#95766c;text-transform:uppercase;text-align:center}
+    .device-caption .device-separator{width:4px;height:4px;background:var(--orange);border-radius:50%;flex:0 0 4px}
+    .gift-band{background:linear-gradient(114deg,#820a26,#B6072C);color:#fff;position:relative;overflow:hidden}
+    .gift-band::before,.gift-band::after{content:'';position:absolute;border:1px solid rgba(255,255,255,.12);width:570px;height:570px;border-radius:50%;right:-110px;top:-270px}
+    .gift-band::after{width:400px;height:400px;right:-30px;top:-180px}
+    .gift-inner{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:70px;position:relative;z-index:1;padding:83px 0}
+    .gift-inner .section-label{color:#ffd4a7}
+    .gift-inner h2{margin-bottom:20px}
+    .gift-inner p{color:#f1dce0;line-height:1.87}
+    .gift-types{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .gift-type{border:1px solid rgba(255,255,255,.26);border-radius:14px;padding:23px 24px;background:rgba(255,255,255,.065)}
+    .gift-type .gift-symbol{display:block;font-size:24px;line-height:1;margin-bottom:12px}
+    .gift-type strong{font-size:15px}
+    .gift-type small{display:block;font-size:12px;line-height:1.6;color:#eccbd1;margin-top:6px}
+    .celebration{position:relative;overflow:hidden;background:linear-gradient(115deg,#fff4e6 0%,#fffaf3 60%,#f2f7f1 100%);border-bottom:1px solid #f0e4d9}
+    .celebration::after{content:'';position:absolute;width:490px;height:490px;right:-200px;bottom:-340px;border:1px solid rgba(142,36,52,.09);border-radius:50%;pointer-events:none}
+    .celebration-inner{display:grid;grid-template-columns:1fr .85fr;gap:72px;align-items:center;padding:75px 0}
+    .celebration h2{max-width:630px;margin-bottom:18px}
+    .celebration p{font-size:16px;line-height:1.85;color:var(--muted)}
+    .celebration-art{min-height:150px;display:grid;place-items:center;position:relative}
+    .celebration-art::before{content:'';position:absolute;inset:0 8%;background:radial-gradient(ellipse,rgba(240,219,193,.7),transparent 67%);z-index:0}
+    .celebration-art img{position:relative;z-index:1;display:block;width:min(100%,310px);height:auto}
+    .language-section{background:#fff}
+    .language-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}
+    .language-section .visual-stage{max-width:610px}
+    .language-grid .feature-copy{max-width:490px}
+    .language-chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+    .language-chip{border:1px solid #e7d4cb;background:#fff7f0;border-radius:10px;padding:12px 18px;color:var(--maroon);font-size:14px;font-weight:800}
+    .steps{background:#faf2e8;border-top:1px solid #f0e2d5}
+    .steps-row{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:43px}
+    .step{padding:4px 16px 4px 0}
+    .step-no{font-family:Manrope,sans-serif;font-size:52px;line-height:1;font-weight:800;letter-spacing:-.08em;color:#dec2b6;margin-bottom:18px}
+    .step p{font-size:14px;line-height:1.85;color:var(--muted)}
+    .privacy{background:#fff}
+    .privacy-inner{display:flex;align-items:center;gap:26px;border:1px solid #e4e9df;border-radius:19px;padding:30px 34px;background:#f7faf4}
+    .privacy-icon{width:64px;height:64px;border-radius:16px;background:#e2efdf;color:var(--green);display:grid;place-items:center;flex-shrink:0}
+    .privacy-icon svg{width:30px;height:30px;stroke:currentColor;fill:none;stroke-width:1.8}
+    .privacy h3{font-size:20px;margin-bottom:5px}
+    .privacy p{color:#746f67;line-height:1.7;font-size:14px}
+    .privacy-read{display:inline-flex;color:var(--maroon);font-size:13px;font-weight:800;margin-top:12px;border-bottom:1px solid currentColor;padding-bottom:3px}
+    .privacy-read:hover{color:var(--deep)}
+    .store-preview{background:var(--cream);overflow:hidden}
+    .store-heading{max-width:710px;text-align:center;margin:0 auto 37px}
+    .store-heading .section-label{margin-bottom:14px}
+    .store-heading h2{margin-bottom:15px}
+    .store-heading p{font-size:16px;line-height:1.85;color:var(--muted)}
+    .store-visual{margin:0 auto;max-width:1090px}
+    .store-pair{width:100%;height:auto;display:block;mix-blend-mode:multiply}
+    .store-mobile-pair{display:none}
+    .store-caption{font-size:12px;color:#947c72;text-align:center;margin-top:18px;line-height:1.7}
+    .launch{background:var(--cream);text-align:center;border-top:1px solid #eee2d9}
+    .launch-inner{max-width:750px;margin:0 auto}
+    .launch-inner h2{margin-bottom:20px}
+    .launch-inner>p{font-size:16px;line-height:1.85;color:var(--muted);max-width:590px;margin:0 auto}
+    .platforms{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin:34px 0 17px}
+    .platform{display:flex;align-items:center;gap:14px;text-align:left;min-width:217px;padding:16px 20px;border:1px solid #e0cec5;border-radius:13px;background:#fff}
+    .platform svg{width:28px;height:28px;fill:currentColor;color:#262226;flex-shrink:0}
+    .platform .platform-name{display:block;font-size:13px;font-weight:800}
+    .platform .platform-soon{display:block;font-size:11px;color:var(--maroon);font-weight:800;margin-top:3px;text-transform:uppercase;letter-spacing:.04em}
+    .launch-note{font-size:12px;color:#9b8980}
+    footer{background:#fff;border-top:1px solid var(--line)}
+    .footer-main{background:var(--paper)}
+    .footer-inner{padding:42px 0 38px;display:flex;justify-content:center;align-items:center}
+    .footer-tag{font-size:10px;font-weight:800;letter-spacing:.22em;color:#8b6b60;line-height:1.5;text-transform:uppercase}
+    .footer-identity{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+    .footer-wordmark{display:block;width:245px;max-width:100%;line-height:0}
+    .footer-wordmark img{width:100%;height:auto;display:block}
+    .footer-bottom{border-top:1px solid var(--line);background:#faf5ef}
+    .footer-bottom-inner{min-height:59px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0}
+    .footer-bottom small{font-size:12px;color:#8a7c74}
+    .footer-bottom a{font-size:13px;font-weight:700;color:var(--maroon)}
+    .footer-bottom a:hover{text-decoration:underline}
+    .footer-links{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:12px 24px}
+    .footer-bottom a[aria-current="page"]{text-decoration:underline}
+    [lang="ta"] h1,[lang="ta"] h2{letter-spacing:-.03em;line-height:1.5}
+    [lang="ta"] h1{font-size:clamp(36px,3.4vw,49px)}
+    [lang="ta"] h2{font-size:clamp(29px,2.8vw,38px)}
+    [lang="ta"] .header-soon{letter-spacing:0}
+    @media(max-width:1110px){.nav{gap:22px}.header-soon{display:none}.feature-grid,.language-grid{gap:35px}.shell{width:min(1100px,calc(100% - 52px))}}
+    @media(max-width:930px){.nav{display:none}.hero-inner{grid-template-columns:1fr;padding:76px 0 82px;min-height:0;text-align:center}.hero-copy{display:flex;flex-direction:column;align-items:center}.hero-text{max-width:650px}.hero-art{width:min(620px,100%);margin:0 auto}.hero-meta,.hero-actions{justify-content:center}.feature-grid,.language-grid{grid-template-columns:1fr;gap:39px}.feature-section.alt .feature-copy,.feature-section.alt .visual-stage{order:initial}.feature-section.alt .feature-copy{order:1}.feature-section.alt .visual-stage{order:2}.visual-stage{max-width:730px;width:100%;margin:0 auto}.gift-inner{grid-template-columns:1fr;gap:38px}.language-grid .feature-copy{max-width:620px}.promises{gap:13px}.promise-item{padding:26px 20px}}
+    @media(max-width:700px){.shell{width:calc(100% - 36px)}.header-inner{height:77px}.logo{width:168px}.language-switch button{padding:8px 10px}.hero-inner{padding:59px 0 71px}.eyebrow{font-size:10px}h1{font-size:clamp(37px,8.4vw,54px)}.hero-text{font-size:15px}.hero-art{min-height:clamp(330px,98vw,540px);width:100%}.hero-art .phone{width:min(50%,270px)}.hero-art .phone.iphone{left:2%}.showcase-label{font-size:9px;bottom:0}.hero-meta{gap:12px;justify-content:center}.hero-meta span{font-size:11px}.section{padding:77px 0}.section-heading{margin-bottom:29px}.section-heading p,.feature-copy>p,.launch-inner>p{font-size:14px}.promises{grid-template-columns:1fr}.promise-item{display:grid;grid-template-columns:64px 1fr;gap:0 16px;min-height:0;padding:23px}.promise-icon{grid-row:span 2;margin:0}.promise-item h3{font-size:17px;margin:3px 0 7px}.promise-item p{grid-column:2}.feature-grid,.language-grid{gap:27px}.device-pair{height:clamp(325px,104vw,535px)}.device-pair .phone{width:min(50%,270px)}.device-pair .iphone{left:3%}.device-pair .android{right:1%;top:27px}.device-caption{font-size:10px;gap:9px}.gift-inner{padding:67px 0;gap:31px}.gift-types{gap:10px}.gift-type{padding:18px}.gift-type strong{font-size:13px}.steps-row{grid-template-columns:1fr;gap:21px}.step{display:grid;grid-template-columns:63px 1fr;gap:0 17px}.step-no{grid-row:span 2;margin:0;font-size:45px}.step h3{margin:4px 0 6px}.step p{grid-column:2}.privacy-inner{align-items:flex-start;padding:24px;gap:17px}.privacy-icon{width:46px;height:46px;border-radius:11px}.privacy-icon svg{width:24px;height:24px}.privacy h3{font-size:17px}.footer-inner{flex-direction:column;text-align:center;padding:37px 0}.footer-right{text-align:center}.footer-bottom-inner{flex-direction:column;justify-content:center;gap:12px;padding:20px 0}.footer-links{justify-content:center;gap:12px 20px}}
+    @media(max-width:430px){.hero-actions{width:100%}.action{width:100%;flex:1}.platform{width:100%;justify-content:center}.gift-type{padding:15px 12px}.gift-type small{font-size:11px}.logo{width:155px}.language-switch button{font-size:11px}.hero-meta{justify-content:flex-start}.device-caption{flex-wrap:wrap}}
+    @media(max-width:700px){.hero-art .showcase-label{bottom:-24px}.header .logo{width:54px}.footer-wordmark{width:230px}}
+    @media(max-width:430px){.header .logo{width:52px}}
+    @media(max-width:930px){.celebration-inner{gap:30px}}
+    @media(max-width:700px){.celebration-inner{grid-template-columns:1fr;gap:26px;padding:68px 0;text-align:center}.celebration h2{margin-left:auto;margin-right:auto}.celebration p{font-size:14px}.celebration-art{min-height:120px}.celebration-art img{width:min(73%,285px)}.store-heading{margin-bottom:28px}.store-heading p{font-size:14px}.store-pair{display:none}.store-mobile-pair{display:grid;grid-template-columns:1fr;gap:23px}.store-mobile-pair img{display:block;width:100%;height:auto;mix-blend-mode:multiply}.store-caption{margin-top:23px}.footer-bottom-inner{min-height:53px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.action{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="header">
+    <div class="shell header-inner">
+      <a href="#top" class="logo" aria-label="Suttram about page"><img src="/assets/suttram-icon.png" alt="Suttram app icon" width="1024" height="1024" /></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#why" data-t="navWhy">Why Suttram</a>
+        <a href="#family" data-t="navFamily">Family Space</a>
+        <a href="#occasions" data-t="navOccasions">Occasions</a>
+        <a href="#experience" data-t="navExperience">Experience</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Website language">
+          <button type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+          <button type="button" data-lang="ta" aria-pressed="false" aria-label="தமிழ்">தமிழ்</button>
+        </div>
+        <span class="header-soon" data-t="comingSoon">Coming Soon</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="color-rule" aria-hidden="true"></span><span data-t="tagline">Family. Occasions. Memories.</span></div>
+          <h1><span data-t="heroOne">A closer circle</span><br /><span class="maroon" data-t="heroTwo">for every family.</span></h1>
+          <p class="hero-text" data-t="heroBody">Our family stories are made of relationships, occasions, gifts and memories. Suttram brings them together in one thoughtful, private space.</p>
+          <div class="hero-actions">
+            <a href="#why" class="action primary"><span data-t="discover">Discover Suttram</span><span aria-hidden="true">↗</span></a>
+            <a href="#download" class="action outline"><span data-t="androidIos">Android &amp; iPhone</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span data-t="privateSpace">Private family space</span></span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m4 12 5 5L20 6"/></svg>தமிழ் + English</span>
+          </div>
+        </div>
+        <div class="hero-art" role="group" aria-label="Suttram app welcome experience shown on iPhone and Android">
+          <img class="phone iphone" src="/assets/phones/screen-007-iphone.webp" data-en-src="/assets/phones/screen-007-iphone.webp" data-ta-src="/assets/phones/screen-006-iphone.webp" width="470" height="855" alt="Suttram welcome screen on iPhone" fetchpriority="high" decoding="async" />
+          <img class="phone android" src="/assets/phones/screen-007-android.webp" data-en-src="/assets/phones/screen-007-android.webp" data-ta-src="/assets/phones/screen-006-android.webp" width="470" height="855" alt="Suttram welcome screen on Android" fetchpriority="high" decoding="async" />
+          <div class="showcase-label" data-t="nativeApps">Designed for iPhone &amp; Android</div>
+        </div>
+      </div>
+    </section>
+    <div class="soft-divider" aria-hidden="true"></div>
+
+    <section class="section promise" id="why">
+      <div class="shell">
+        <div class="section-heading">
+          <div class="section-label" data-t="whyTag">THE HEART OF SUTTRAM</div>
+          <h2 data-t="whyHeading">Everything that brings a family together.</h2>
+          <p data-t="whyBody">A place shaped around the way our families connect, celebrate and remember—not another social feed.</p>
+        </div>
+        <div class="promises">
+          <article class="promise-item">
+            <div class="promise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 14.5 16 5l12 9.5V28H4V14.5Z"/><circle cx="12" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><path d="M8.5 25v-2a3.5 3.5 0 0 1 7 0v2m1 0v-2a3.5 3.5 0 0 1 7 0v2"/></svg></div>
+            <h3 data-t="cardFamily">Family Space</h3><p data-t="cardFamilyBody">A home for your family connections, with membership managed thoughtfully.</p>
+          </article>
+          <article class="promise-item">
+            <div class="promise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="21" rx="3"/><path d="M4 13h24M10 4v6m12-6v6M10 19h4v4h-4z"/></svg></div>
+            <h3 data-t="cardOccasions">Occasions</h3><p data-t="cardOccasionsBody">Host a celebration or remember an occasion you're attending.</p>
+          </article>
+          <article class="promise-item">
+            <div class="promise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="13" width="24" height="16" rx="2"/><path d="M3 13h26M16 13v16m-7-16C2 13 4 5 9 7c4 1 7 6 7 6s3-5 7-6c5-2 7 6 0 6"/></svg></div>
+            <h3 data-t="cardGifts">Gifts</h3><p data-t="cardGiftsBody">Keep a meaningful record of gifts and gestures shared during life's moments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="family">
+      <div class="shell feature-grid">
+        <div class="feature-copy">
+          <div class="section-label" data-t="familyTag">01 / FAMILY SPACE</div>
+          <h2 data-t="familyHeading">Your people. Your space.</h2>
+          <p data-t="familyBody">Start a family space with just a name, then add the people who belong in it. A simple, familiar home for your family, wherever everyone lives.</p>
+          <div class="feature-points">
+            <div class="feature-point" data-t="familyPoint1">Create a family space in a few simple steps</div>
+            <div class="feature-point" data-t="familyPoint2">Add family members whenever you're ready</div>
+            <div class="feature-point" data-t="familyPoint3">Family members decide whether to join</div>
+          </div>
+        </div>
+        <figure class="visual-stage">
+          <div class="device-pair">
+            <img class="phone iphone" src="/assets/phones/screen-018-iphone.webp" data-en-src="/assets/phones/screen-018-iphone.webp" data-ta-src="/assets/phones/screen-017-iphone.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram Family Home on iPhone" />
+            <img class="phone android" src="/assets/phones/screen-018-android.webp" data-en-src="/assets/phones/screen-018-android.webp" data-ta-src="/assets/phones/screen-017-android.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram Family Home on Android" />
+          </div>
+          <figcaption class="device-caption"><span data-t="familyPreview">FAMILY HOME</span><span class="device-separator" aria-hidden="true"></span><span>iPhone + Android</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section feature-section alt" id="occasions">
+      <div class="shell feature-grid">
+        <div class="feature-copy">
+          <div class="section-label" data-t="occasionTag">02 / OCCASIONS</div>
+          <h2 data-t="occasionHeading">For every celebration that matters.</h2>
+          <p data-t="occasionBody">Birthdays, weddings, housewarmings and family gatherings deserve a place of their own. Keep your family's hosted occasions and the celebrations you attend together.</p>
+          <div class="feature-points">
+            <div class="feature-point" data-t="occasionPoint1">Host an Occasion for your family</div>
+            <div class="feature-point" data-t="occasionPoint2">Add an Occasion I'm Attending</div>
+            <div class="feature-point" data-t="occasionPoint3">See upcoming, past and calendar views</div>
+          </div>
+        </div>
+        <figure class="visual-stage">
+          <div class="device-pair">
+            <img class="phone iphone" src="/assets/phones/screen-048-iphone.webp" data-en-src="/assets/phones/screen-048-iphone.webp" data-ta-src="/assets/phones/screen-047-iphone.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram Occasions Hub on iPhone" />
+            <img class="phone android" src="/assets/phones/screen-048-android.webp" data-en-src="/assets/phones/screen-048-android.webp" data-ta-src="/assets/phones/screen-047-android.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram Occasions Hub on Android" />
+          </div>
+          <figcaption class="device-caption"><span data-t="occasionPreview">OCCASIONS HUB</span><span class="device-separator" aria-hidden="true"></span><span>iPhone + Android</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="gift-band" id="gifts">
+      <div class="shell gift-inner">
+        <div>
+          <div class="section-label" data-t="giftTag">03 / GIFTS</div>
+          <h2 data-t="giftHeading">Thoughtful gestures, beautifully remembered.</h2>
+          <p data-t="giftBody">Gifts are part of the moments we share. Suttram gives families a way to record the thoughtful exchanges connected to their occasions, with context that can be remembered later.</p>
+        </div>
+        <div class="gift-types">
+          <div class="gift-type"><span class="gift-symbol" aria-hidden="true">✧</span><strong data-t="giftOne">Cash gifts</strong><small data-t="giftOneSub">A clear record for your occasion</small></div>
+          <div class="gift-type"><span class="gift-symbol" aria-hidden="true">◇</span><strong data-t="giftTwo">Gold gifts</strong><small data-t="giftTwoSub">Remember a treasured gesture</small></div>
+          <div class="gift-type"><span class="gift-symbol" aria-hidden="true">❀</span><strong data-t="giftThree">Gift items</strong><small data-t="giftThreeSub">Keep the details together</small></div>
+          <div class="gift-type"><span class="gift-symbol" aria-hidden="true">↗</span><strong data-t="giftFour">Digital gifts</strong><small data-t="giftFourSub">Make every record feel complete</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="celebration" aria-labelledby="celebration-title">
+      <div class="shell celebration-inner">
+        <div class="celebration-copy">
+          <div class="section-label" data-t="celebrationTag">THE COLOURS OF TOGETHERNESS</div>
+          <h2 id="celebration-title" data-t="celebrationHeading">For every moment worth remembering.</h2>
+          <p data-t="celebrationBody">A brighter expression of the moments families share.</p>
+        </div>
+        <div class="celebration-art">
+          <img src="/assets/suttram-wordmark.png" alt="சுற்றம் — SUTTRAM official crimson wordmark" width="2048" height="1024" loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section language-section" id="experience">
+      <div class="shell language-grid">
+        <figure class="visual-stage">
+          <div class="device-pair">
+            <img class="phone iphone" src="/assets/phones/screen-005-iphone.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram language selection on iPhone" />
+            <img class="phone android" src="/assets/phones/screen-005-android.webp" width="470" height="855" loading="lazy" decoding="async" alt="Suttram language selection on Android" />
+          </div>
+          <figcaption class="device-caption"><span data-t="languagePreview">LANGUAGE SELECTION</span><span class="device-separator" aria-hidden="true"></span><span>iPhone + Android</span></figcaption>
+        </figure>
+        <div class="feature-copy">
+          <div class="section-label" data-t="languageTag">MADE TO FEEL LIKE HOME</div>
+          <h2 data-t="languageHeading">Your family. Your language.</h2>
+          <p data-t="languageBody">Suttram feels familiar from the very first screen. Choose Tamil or English and enjoy an experience shaped for the way you communicate with family.</p>
+          <div class="language-chips"><span class="language-chip">தமிழ்</span><span class="language-chip">English</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="how">
+      <div class="shell">
+        <div class="section-heading">
+          <div class="section-label" data-t="stepsTag">THE SUTTRAM EXPERIENCE</div>
+          <h2 data-t="stepsHeading">Simple to begin. Meaningful to keep.</h2>
+          <p data-t="stepsBody">From your first family space to the occasions you remember together.</p>
+        </div>
+        <div class="steps-row">
+          <article class="step"><div class="step-no">01</div><h3 data-t="stepOne">Choose your language</h3><p data-t="stepOneSub">Start in Tamil or English, then sign in with Google or Microsoft.</p></article>
+          <article class="step"><div class="step-no">02</div><h3 data-t="stepTwo">Bring your family closer</h3><p data-t="stepTwoSub">Create your family space and add loved ones so they can choose to join.</p></article>
+          <article class="step"><div class="step-no">03</div><h3 data-t="stepThree">Make moments matter</h3><p data-t="stepThreeSub">Host occasions, remember celebrations and record gifts.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section privacy">
+      <div class="shell privacy-inner">
+        <div class="privacy-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="14" width="18" height="15" rx="3"/><path d="M11 14V9a5 5 0 0 1 10 0v5"/><path d="M16 20v4"/></svg></div>
+        <div><h3 data-t="privacyHeading">A private space for you and your family</h3><p data-t="privacyBody">Family membership isn't automatic. People can review a family request before deciding to join, keeping family access intentional.</p><a class="privacy-read" href="/privacy" data-t="readPrivacy">Read our Privacy Policy ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section store-preview" id="store-preview">
+      <div class="shell">
+        <div class="store-heading">
+          <div class="section-label" data-t="storeTag">A FIRST LOOK</div>
+          <h2 data-t="storeHeading">Suttram, made for your phone.</h2>
+          <p data-t="storeBody">A preview of Suttram's App Store and Google Play presentation, designed around the family experience.</p>
+        </div>
+        <figure class="store-visual">
+          <img class="store-pair" src="/assets/suttram-store-preview.webp" alt="Design preview of Suttram's planned App Store and Google Play listings" width="1536" height="1024" loading="lazy" decoding="async" />
+          <div class="store-mobile-pair">
+            <img src="/assets/suttram-store-ios.webp" alt="Suttram App Store listing design preview" width="750" height="920" loading="lazy" decoding="async" />
+            <img src="/assets/suttram-store-android.webp" alt="Suttram Google Play listing design preview" width="750" height="920" loading="lazy" decoding="async" />
+          </div>
+          <figcaption class="store-caption" data-t="storeCaption">Store artwork preview · Suttram is coming soon to iPhone and Android.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section launch" id="download">
+      <div class="shell launch-inner">
+        <div class="section-label" data-t="downloadTag">SUTTRAM ON MOBILE</div>
+        <h2 data-t="downloadHeading">Keep the people who matter close.</h2>
+        <p data-t="downloadBody">An experience made for the everyday connections and celebrations that make a family. Suttram for iPhone and Android.</p>
+        <div class="platforms" aria-label="App availability">
+          <div class="platform">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.7 12.8c0-2.1 1.7-3.2 1.8-3.2-1-.5-2.6-.5-3.6-.1-1.1.5-1.4.5-2.2 0-.8-.4-1.4-.4-2.3 0-1.2.5-2 1.6-2 3 0 1.4.8 3.6 1.9 5.2.5.8 1.1 1.6 1.9 1.6.8 0 1-.5 2-.5.9 0 1.2.5 2 .5s1.3-.7 1.8-1.5c.6-.9.8-1.8.8-1.8-0 0-1.6-.6-1.6-2.4ZM14.1 7.1c.4-.5.6-1.1.6-1.8-.6 0-1.3.4-1.7.9-.4.4-.7 1.1-.6 1.7.6.1 1.3-.3 1.7-.8Z"/></svg>
+            <div><span class="platform-name">iPhone / iOS</span><span class="platform-soon" data-t="comingSoon">Coming Soon</span></div>
+          </div>
+          <div class="platform">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.6v18.8c0 .4.2.7.5.8L14.5 12 4.1 1.8c-.3.1-.5.5-.5.8ZM15.8 10.9l2.7-2.7L6.8 1.5l9 9.4Zm3.8-2-3 3 3 2.9 2.1-1.2c.9-.6.9-1.4 0-2l-2.1-1.2Zm-3.8 4.3-9 9.3 11.7-6.7-2.7-2.6Z"/></svg>
+            <div><span class="platform-name">Android</span><span class="platform-soon" data-t="comingSoon">Coming Soon</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div class="shell footer-inner">
+        <div class="footer-identity">
+          <a href="#top" class="footer-wordmark" aria-label="Suttram about page"><img src="/assets/suttram-wordmark.png" alt="சுற்றம் — SUTTRAM" width="2048" height="1024" /></a>
+          <div class="footer-tag">A PRAGALYA INITIATIVE</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="shell footer-bottom-inner">
+        <small>&copy; <span id="copyright-year">2026</span> Suttram · <span data-t="byPragalya">A Pragalya initiative</span></small>
+        <div class="footer-links">
+          <a href="/about" aria-current="page" data-t="about">About</a>
+          <a href="/privacy" data-t="privacyLink">Privacy Policy</a>
+          <a href="/terms" data-t="termsLink">Terms of Service</a>
+          <a href="mailto:hello@pragalya.com" data-t="contact">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      en: {
+        navWhy:'Why Suttram',navFamily:'Family Space',navOccasions:'Occasions',navExperience:'Experience',comingSoon:'Coming Soon',
+        tagline:'Family. Occasions. Memories.',heroOne:'A closer circle',heroTwo:'for every family.',
+        heroBody:'Our family stories are made of relationships, occasions, gifts and memories. Suttram brings them together in one thoughtful, private space.',
+        discover:'Discover Suttram',androidIos:'Android & iPhone',privateSpace:'Private family space',nativeApps:'Designed for iPhone & Android',
+        whyTag:'THE HEART OF SUTTRAM',whyHeading:'Everything that brings a family together.',whyBody:'A place shaped around the way our families connect, celebrate and remember—not another social feed.',
+        cardFamily:'Family Space',cardFamilyBody:'A home for your family connections, with membership managed thoughtfully.',
+        cardOccasions:'Occasions',cardOccasionsBody:"Host a celebration or remember an occasion you're attending.",
+        cardGifts:'Gifts',cardGiftsBody:"Keep a meaningful record of gifts and gestures shared during life's moments.",
+        familyTag:'01 / FAMILY SPACE',familyHeading:'Your people. Your space.',familyBody:'Start a family space with just a name, then add the people who belong in it. A simple, familiar home for your family, wherever everyone lives.',
+        familyPoint1:'Create a family space in a few simple steps',familyPoint2:"Add family members whenever you're ready",familyPoint3:'Family members decide whether to join',familyPreview:'FAMILY HOME',
+        occasionTag:'02 / OCCASIONS',occasionHeading:'For every celebration that matters.',
+        occasionBody:"Birthdays, weddings, housewarmings and family gatherings deserve a place of their own. Keep your family's hosted occasions and the celebrations you attend together.",
+        occasionPoint1:'Host an Occasion for your family',occasionPoint2:"Add an Occasion I'm Attending",occasionPoint3:'See upcoming, past and calendar views',occasionPreview:'OCCASIONS HUB',
+        giftTag:'03 / GIFTS',giftHeading:'Thoughtful gestures, beautifully remembered.',
+        giftBody:'Gifts are part of the moments we share. Suttram gives families a way to record the thoughtful exchanges connected to their occasions, with context that can be remembered later.',
+        giftOne:'Cash gifts',giftOneSub:'A clear record for your occasion',giftTwo:'Gold gifts',giftTwoSub:'Remember a treasured gesture',giftThree:'Gift items',giftThreeSub:'Keep the details together',giftFour:'Digital gifts',giftFourSub:'Make every record feel complete',
+        celebrationTag:'THE COLOURS OF TOGETHERNESS',celebrationHeading:'For every moment worth remembering.',celebrationBody:'A brighter expression of the moments families share.',
+        languagePreview:'LANGUAGE SELECTION',languageTag:'MADE TO FEEL LIKE HOME',languageHeading:'Your family. Your language.',
+        languageBody:'Suttram feels familiar from the very first screen. Choose Tamil or English and enjoy an experience shaped for the way you communicate with family.',
+        stepsTag:'THE SUTTRAM EXPERIENCE',stepsHeading:'Simple to begin. Meaningful to keep.',stepsBody:'From your first family space to the occasions you remember together.',
+        stepOne:'Choose your language',stepOneSub:'Start in Tamil or English, then sign in with Google or Microsoft.',
+        stepTwo:'Bring your family closer',stepTwoSub:'Create your family space and add loved ones so they can choose to join.',
+        stepThree:'Make moments matter',stepThreeSub:'Host occasions, remember celebrations and record gifts.',
+        privacyHeading:'A private space for you and your family',privacyBody:"Family membership isn't automatic. People can review a family request before deciding to join, keeping family access intentional.",
+        storeTag:'A FIRST LOOK',storeHeading:'Suttram, made for your phone.',storeBody:"A preview of Suttram's App Store and Google Play presentation, designed around the family experience.",storeCaption:'Store artwork preview · Suttram is coming soon to iPhone and Android.',
+        downloadTag:'SUTTRAM ON MOBILE',downloadHeading:'Keep the people who matter close.',downloadBody:'An experience made for the everyday connections and celebrations that make a family. Suttram for iPhone and Android.',
+        readPrivacy:'Read our Privacy Policy ↗',about:'About',privacyLink:'Privacy Policy',termsLink:'Terms of Service',byPragalya:'A Pragalya initiative',contact:'Contact us'
+      },
+      ta: {
+        navWhy:'ஏன் சுற்றம்?',navFamily:'குடும்ப இடம்',navOccasions:'நிகழ்வுகள்',navExperience:'அனுபவம்',comingSoon:'விரைவில் வருகிறது',
+        tagline:'குடும்பம். நிகழ்வுகள். நினைவுகள்.',heroOne:'உங்கள் அன்புக்குரியவர்கள்.',heroTwo:'இன்னும் நெருக்கமாக.',
+        heroBody:'உறவுகள், நிகழ்வுகள், பரிசுகள், நினைவுகள் — இவை எல்லாம் சேர்ந்ததுதான் குடும்பம். இவற்றை ஒன்றிணைக்கும் தனிப்பட்ட இடமே சுற்றம்.',
+        discover:'சுற்றத்தை அறிய',androidIos:'Android & iPhone',privateSpace:'தனிப்பட்ட குடும்ப இடம்',nativeApps:'iPhone மற்றும் Android-க்காக',
+        whyTag:'சுற்றத்தின் நோக்கம்',whyHeading:'குடும்பத்தை ஒன்றிணைக்கும் அனைத்தும் ஒரே இடத்தில்.',whyBody:'நம் குடும்பங்கள் பழகும், கொண்டாடும், நினைவுகூரும் விதத்திற்கு ஏற்ற இடம். இது மற்றொரு சமூக வலைத்தளம் அல்ல.',
+        cardFamily:'குடும்ப இடம்',cardFamilyBody:'குடும்ப உறவுகளை ஒன்றிணைக்கும், உறுப்பினர் அணுகலைக் கவனமாக நிர்வகிக்கும் இடம்.',
+        cardOccasions:'நிகழ்வுகள்',cardOccasionsBody:'நிகழ்வை நடத்துங்கள்; மற்றவர்கள் நடத்தும் நிகழ்வுகளையும் நினைவில் வைத்திருங்கள்.',
+        cardGifts:'பரிசுகள்',cardGiftsBody:'முக்கிய தருணங்களில் பரிமாறிய பரிசுகளையும் அன்பளிப்புகளையும் பதிவு செய்யுங்கள்.',
+        familyTag:'01 / குடும்ப இடம்',familyHeading:'உங்கள் உறவுகள். உங்கள் இடம்.',familyBody:'ஒரு பெயருடன் குடும்ப இடத்தைத் தொடங்கி, உங்கள் அன்புக்குரியவர்களை விரும்பும் நேரத்தில் சேர்க்கலாம். அனைவரும் எங்கிருந்தாலும் குடும்பத்திற்கான ஓர் இனிய இடம்.',
+        familyPoint1:'சில எளிய படிகளில் குடும்ப இடத்தை உருவாக்கலாம்',familyPoint2:'விரும்பும் நேரத்தில் உறுப்பினர்களைச் சேர்க்கலாம்',familyPoint3:'குடும்ப உறுப்பினர்கள் இணைவதைத் தாங்களே முடிவு செய்வார்கள்',familyPreview:'குடும்ப முகப்பு',
+        occasionTag:'02 / நிகழ்வுகள்',occasionHeading:'ஒவ்வொரு கொண்டாட்டமும் முக்கியமானது.',
+        occasionBody:'பிறந்தநாள், திருமணம், புதுமனைப் புகுவிழா, குடும்பக் கூடல் என ஒவ்வொரு நிகழ்விற்கும் ஓர் இடம். நீங்கள் நடத்தும் நிகழ்வுகளையும் கலந்து கொள்ளும் நிகழ்வுகளையும் ஒன்றாக வைத்திருக்கலாம்.',
+        occasionPoint1:'உங்கள் குடும்பத்திற்காக நிகழ்வை நடத்துங்கள்',occasionPoint2:'கலந்துகொள்ளும் நிகழ்வைச் சேருங்கள்',occasionPoint3:'வரவிருக்கும், கடந்த மற்றும் நாட்காட்டி பார்வைகள்',occasionPreview:'நிகழ்வுகள் முகப்பு',
+        giftTag:'03 / பரிசுகள்',giftHeading:'அன்பான பரிமாற்றங்கள், அழகான நினைவுகளாக.',
+        giftBody:'நாம் பகிரும் தருணங்களின் ஒரு பகுதியே பரிசுகள். நிகழ்வுகளுடன் தொடர்புடைய அன்பளிப்புகளை விவரங்களோடு பதிவு செய்து பின்னரும் நினைவில் கொள்ள சுற்றம் உதவும்.',
+        giftOne:'பணப் பரிசு',giftOneSub:'நிகழ்விற்கான தெளிவான பதிவு',giftTwo:'தங்கப் பரிசு',giftTwoSub:'மதிப்புள்ள அன்பளிப்பின் நினைவு',giftThree:'பொருள் பரிசு',giftThreeSub:'விவரங்களை ஒன்றாக வைத்திட',giftFour:'டிஜிட்டல் பரிசு',giftFourSub:'முழுமையான பரிசுப் பதிவு',
+        celebrationTag:'உறவுகளின் வண்ணங்கள்',celebrationHeading:'நினைவில் நிற்கும் ஒவ்வொரு தருணத்திற்கும்.',celebrationBody:'குடும்பங்கள் பகிரும் தருணங்களின் வண்ணமயமான வெளிப்பாடு.',
+        languagePreview:'மொழித் தேர்வு',languageTag:'வீட்டைப் போல நெருக்கமாக',languageHeading:'உங்கள் குடும்பம். உங்கள் மொழி.',
+        languageBody:'முதல் திரையிலிருந்தே சுற்றம் நெருக்கமாக இருக்கும். தமிழ் அல்லது ஆங்கிலத்தைத் தேர்ந்தெடுத்து, குடும்பத்துடன் பழகும் மொழியில் பயன்படுத்துங்கள்.',
+        stepsTag:'சுற்றம் அனுபவம்',stepsHeading:'எளிய தொடக்கம். நீடிக்கும் நினைவுகள்.',stepsBody:'குடும்ப இடம் உருவாக்குவதிலிருந்து ஒன்றாக நினைவுகூரும் நிகழ்வுகள் வரை.',
+        stepOne:'மொழியைத் தேர்ந்தெடுங்கள்',stepOneSub:'தமிழ் அல்லது ஆங்கிலத்தில் தொடங்கி, Google அல்லது Microsoft கணக்கில் உள்நுழையுங்கள்.',
+        stepTwo:'குடும்பத்தை ஒன்றிணையுங்கள்',stepTwoSub:'குடும்ப இடத்தை உருவாக்கி, அன்புக்குரியவர்களைச் சேர்த்து, இணைய அவர்களுக்கு விருப்பம் அளியுங்கள்.',
+        stepThree:'தருணங்களை நினைவாக்குங்கள்',stepThreeSub:'நிகழ்வுகளை நடத்தி, கொண்டாட்டங்களையும் பரிசுகளையும் பதிவு செய்யுங்கள்.',
+        privacyHeading:'உங்களுக்கும் உங்கள் குடும்பத்திற்குமான தனிப்பட்ட இடம்',privacyBody:'குடும்ப உறுப்பினர் சேர்க்கை தானாக நடக்காது. இணைவதற்கு முன் ஒவ்வொருவரும் குடும்பக் கோரிக்கையைப் பார்த்து முடிவு செய்யலாம்.',
+        storeTag:'முதல் பார்வை',storeHeading:'உங்கள் கைப்பேசிக்காக சுற்றம்.',storeBody:'குடும்ப அனுபவத்தை மையமாகக் கொண்டு வடிவமைக்கப்பட்ட App Store மற்றும் Google Play காட்சியின் முன்னோட்டம்.',storeCaption:'செயலி அங்காடி வடிவமைப்பின் முன்னோட்டம் · iPhone மற்றும் Android-க்கு சுற்றம் விரைவில் வருகிறது.',
+        downloadTag:'மொபைலில் சுற்றம்',downloadHeading:'உங்கள் உறவுகளை நெருக்கமாக வைத்திருங்கள்.',downloadBody:'குடும்பத்தை உருவாக்கும் அன்றாட உறவுகளுக்கும் இனிய கொண்டாட்டங்களுக்கும் ஏற்ற அனுபவம். iPhone மற்றும் Android-இல் சுற்றம்.',
+        readPrivacy:'எங்கள் தனியுரிமைக் கொள்கையைப் படிக்க ↗',about:'அறிமுகம்',privacyLink:'தனியுரிமைக் கொள்கை',termsLink:'பயன்பாட்டு விதிமுறைகள்',byPragalya:'பிரகல்யாவின் முயற்சி',contact:'தொடர்புக்கு'
+      }
+    };
+    const key = 'suttram-site-language';
+    function chooseLanguage(lang) {
+      const next = translations[lang] ? lang : 'en';
+      document.documentElement.lang = next;
+      document.querySelectorAll('[data-t]').forEach(node => {
+        const value = translations[next][node.dataset.t];
+        if (value) node.textContent = value;
+      });
+      document.querySelectorAll('[data-lang]').forEach(button => {
+        button.setAttribute('aria-pressed', String(button.dataset.lang === next));
+      });
+      document.querySelectorAll('[data-en-src]').forEach(image => {
+        const target = next === 'ta' ? image.dataset.taSrc : image.dataset.enSrc;
+        if (target && image.getAttribute('src') !== target) image.setAttribute('src', target);
+      });
+      document.title = next === 'ta' ? 'சுற்றம் — குடும்பம். நிகழ்வுகள். நினைவுகள்.' : 'Suttram — Family. Occasions. Memories.';
+      try { localStorage.setItem(key, next); } catch (_) {}
+    }
+    document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => chooseLanguage(button.dataset.lang)));
+    let saved = 'en';
+    try { saved = localStorage.getItem(key) || 'en'; } catch (_) {}
+    chooseLanguage(saved);
+    document.getElementById('copyright-year').textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>
