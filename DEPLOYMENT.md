@@ -37,6 +37,11 @@ Use the original supplied brand art without editing it:
 - `assets/suttram-icon.png` — approved Suttram app icon PNG
 - `assets/suttram-wordmark.png` — approved Suttram crimson wordmark PNG
 - `assets/suttram-wordmark.svg` — supplied wordmark SVG
+- `favicon.ico` — multi-size browser favicon (16, 32 and 48 px)
+- `assets/favicon-16x16.png` and `assets/favicon-32x32.png` — browser favicon PNGs
+- `assets/apple-touch-icon.png` — 180 px icon on the Suttram cream background for iPhone bookmarks
+- `assets/android-chrome-192x192.png` and `assets/android-chrome-512x512.png` — Android shortcut icons
+- `site.webmanifest` — icon metadata for the public website (browser display mode; not a released web app)
 - `brand/suttram-brand-colors-v1.0.md` — source of approved colours
 
 Brand palette: **மஞ்சள்** `#F2AE0A`, **மகிழ்ச்சி** `#F26515`, **உயிர்** `#B6072C`, **அன்பு** `#CF3F5D`, **வளர்ச்சி** `#50AF67`, **மழலை** `#2D7ECA`.
