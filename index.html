@@ -4,98 +4,185 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#fffaf3" />
-  <meta name="description" content="Suttram (சுற்றம்) is a thoughtful family app in development, bringing family spaces, occasions, gifts and memories closer together. Explore the Suttram experience." />
+  <meta name="description" content="Suttram (சுற்றம்) is coming soon. A thoughtful new family app bringing family spaces, occasions, gifts and memories closer together. A Pragalya initiative." />
+  <meta name="robots" content="index,follow" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Suttram (சுற்றம்) — Your family, a little closer." />
-  <meta property="og:description" content="Family spaces, occasions, gifts and memories. Discover Suttram, a Pragalya initiative." />
+  <meta property="og:title" content="Suttram (சுற்றம்) — Coming Soon" />
+  <meta property="og:description" content="A closer circle for every family. Discover the upcoming Suttram experience for iPhone and Android." />
   <meta property="og:url" content="https://suttram.pragalya.com/" />
   <meta property="og:image" content="https://suttram.pragalya.com/assets/suttram-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://suttram.pragalya.com/" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <link rel="stylesheet" href="/assets/pages.css" />
-  <title>சுற்றம் | Suttram — Family. Occasions. Memories.</title>
+  <link rel="stylesheet" href="/assets/coming-soon.css" />
+  <title>சுற்றம் | Suttram — Coming Soon</title>
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-row">
-      <a href="/" class="brand-link" aria-label="Suttram home">
-        <img class="brand-icon" src="/assets/suttram-icon.png" width="1024" height="1024" alt="" />
-        <span class="brand-name">Suttram <small>சுற்றம்</small></span>
+  <a href="#main" class="skip">Skip to main content</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a href="/" class="brand" aria-label="Suttram home">
+        <img src="/assets/suttram-icon.png" width="1024" height="1024" alt="" />
+        <span class="brand-title">Suttram<small>சுற்றம் · BY PRAGALYA</small></span>
       </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="/about">About</a>
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/about" data-t="navAbout">About</a>
+        <a href="/privacy" data-t="navPrivacy">Privacy</a>
+        <a href="/terms" data-t="navTerms">Terms</a>
       </nav>
-      <span class="soon-pill">Coming Soon</span>
+      <div class="language-switch" role="group" aria-label="Website language">
+        <button type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+        <button type="button" data-lang="ta" aria-pressed="false" aria-label="தமிழ்">தமிழ்</button>
+      </div>
     </div>
   </header>
+
   <main id="main">
-    <section class="home-hero">
-      <div class="container hero-grid">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="shell hero-inner">
         <div class="hero-copy">
-          <div class="eyebrow">Family · Occasions · Memories</div>
-          <h1>Our people.<br /><span>Our moments.</span><br />Our Suttram.</h1>
-          <p class="lead">Family connections, special occasions and meaningful gifts deserve a place of their own. Suttram is a thoughtfully designed experience to bring those moments together.</p>
+          <div class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-t="eyebrow">A PRAGALYA INITIATIVE · COMING SOON</span></div>
+          <img class="brand-wordmark" src="/assets/suttram-wordmark-multicolor.png" width="2048" height="1024" alt="சுற்றம் — SUTTRAM multicolour wordmark" fetchpriority="high" />
+          <h1 id="hero-heading"><span data-t="heroOne">A closer circle</span><br /><span data-t="heroTwo">is on its way.</span></h1>
+          <p class="lead" data-t="heroBody">A thoughtful home for the people and moments that matter. Family spaces, occasions, gifts and memories — brought together, beautifully.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="/about">Explore Suttram <span aria-hidden="true">↗</span></a>
-            <a class="button button-secondary" href="/privacy">Our approach to privacy <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="/about"><span data-t="discover">Discover Suttram</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-light" href="#features"><span data-t="explore">What we're building</span><span aria-hidden="true">↓</span></a>
           </div>
-          <p class="hero-small">சுற்றம் · Designed for Tamil and English · iPhone &amp; Android in development</p>
+          <div class="platform-note">
+            <span data-t="platform">Designed for iPhone &amp; Android</span>
+            <span class="bullet" aria-hidden="true"></span>
+            <span data-t="languages">தமிழ் + English</span>
+          </div>
         </div>
-        <div class="hero-visual" role="group" aria-label="Previews of the Suttram mobile app">
-          <img class="hero-phone" src="/assets/phones/screen-007-iphone.webp" width="470" height="855" alt="Suttram welcome screen on iPhone" fetchpriority="high" decoding="async" />
-          <img class="hero-phone" src="/assets/phones/screen-007-android.webp" width="470" height="855" alt="Suttram welcome screen on Android" fetchpriority="high" decoding="async" />
-          <span class="preview-caption">An early look at Suttram</span>
-        </div>
-      </div>
-    </section>
-    <div class="spectrum" aria-hidden="true"></div>
-    <section class="intro-band" aria-labelledby="features-title">
-      <div class="container">
-        <div class="intro-head">
-          <div class="eyebrow" style="justify-content:center">The heart of Suttram</div>
-          <h2 id="features-title">A closer circle for every family.</h2>
-          <p>An experience built around the things that connect us, with a private family space at its heart. Here's what we're working toward.</p>
-        </div>
-        <div class="mini-features">
-          <article class="mini-feature"><span class="feature-mark" aria-hidden="true">01</span><h3>Family Space</h3><p>Create a shared home for your family and invite your people to join.</p></article>
-          <article class="mini-feature"><span class="feature-mark" aria-hidden="true">02</span><h3>Occasions</h3><p>Keep birthdays, weddings, gatherings and the occasions you attend together.</p></article>
-          <article class="mini-feature"><span class="feature-mark" aria-hidden="true">03</span><h3>Gifts &amp; memories</h3><p>Remember meaningful gifts and thoughtful gestures associated with celebrations.</p></article>
+        <div class="visual" role="group" aria-label="Previews of the Suttram app on iPhone and Android">
+          <img class="phone iphone" src="/assets/phones/screen-007-iphone.webp" data-en-src="/assets/phones/screen-007-iphone.webp" data-ta-src="/assets/phones/screen-006-iphone.webp" width="470" height="855" alt="Suttram app welcome screen on iPhone" decoding="async" fetchpriority="high" />
+          <img class="phone android" src="/assets/phones/screen-007-android.webp" data-en-src="/assets/phones/screen-007-android.webp" data-ta-src="/assets/phones/screen-006-android.webp" width="470" height="855" alt="Suttram app welcome screen on Android" decoding="async" fetchpriority="high" />
+          <span class="visual-label" data-t="earlyLook">A first look · App in development</span>
         </div>
       </div>
     </section>
-    <section class="bottom-invitation">
-      <div class="container">
-        <div class="eyebrow">A Pragalya initiative</div>
-        <h2>There's more to the story.</h2>
-        <p>Meet Suttram, see the app previews and learn what we're building for families.</p>
-        <a class="button button-primary" href="/about">Discover our story <span aria-hidden="true">↗</span></a>
+    <div class="color-stripe" aria-hidden="true"></div>
+
+    <section class="section features" id="features" aria-labelledby="features-heading">
+      <div class="shell">
+        <div class="section-intro">
+          <div class="section-kicker" data-t="featuresTag">THE HEART OF SUTTRAM</div>
+          <h2 id="features-heading" data-t="featuresHeading">Made for the moments that bring us together.</h2>
+          <p data-t="featuresBody">Something meaningful is taking shape — around the way families connect, celebrate and remember.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card family">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 14.5 16 5l12 9.5V28H4V14.5Z"/><circle cx="12" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><path d="M8.5 25v-2a3.5 3.5 0 0 1 7 0v2m1 0v-2a3.5 3.5 0 0 1 7 0v2"/></svg></div>
+            <h3 data-t="familyTitle">Family Space</h3>
+            <p data-t="familyBody">A space to bring loved ones closer, with family membership based on choice.</p>
+          </article>
+          <article class="feature-card occasions">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="21" rx="3"/><path d="M4 13h24M10 4v6m12-6v6M10 19h4v4h-4z"/></svg></div>
+            <h3 data-t="occasionsTitle">Occasions</h3>
+            <p data-t="occasionsBody">Make room for birthdays, weddings, gatherings and every celebration that matters.</p>
+          </article>
+          <article class="feature-card memories">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="13" width="24" height="16" rx="2"/><path d="M3 13h26M16 13v16m-7-16C2 13 4 5 9 7c4 1 7 6 7 6s3-5 7-6c5-2 7 6 0 6"/></svg></div>
+            <h3 data-t="giftsTitle">Gifts &amp; memories</h3>
+            <p data-t="giftsBody">Keep a meaningful record of the gifts and thoughtful gestures shared along the way.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiet-band" aria-labelledby="quiet-title">
+      <div class="shell quiet-grid">
+        <div class="quiet-copy">
+          <div class="section-kicker" data-t="privacyTag">THOUGHTFULLY CONNECTED</div>
+          <h2 id="quiet-title"><span data-t="quietOne">Your people.</span> <span data-t="quietTwo">Your space.</span></h2>
+          <p data-t="quietBody">Suttram is being designed to help families stay connected without becoming another public social feed. Learn more about our plans and how we approach privacy.</p>
+          <a href="/privacy" class="quiet-link" data-t="privacyCta">Read our Privacy Policy ↗</a>
+        </div>
+        <img class="quiet-symbol" src="/assets/suttram-icon.png" width="1024" height="1024" alt="Suttram app icon" loading="lazy" />
       </div>
     </section>
   </main>
+
   <footer class="site-footer">
-    <div class="container footer-brand">
-      <a href="/about" aria-label="Discover Suttram"><img src="/assets/suttram-wordmark.png" width="2048" height="1024" alt="சுற்றம் — SUTTRAM" loading="lazy" /></a>
-      <small>A Pragalya initiative</small>
+    <div class="shell footer-main">
+      <a href="/about" aria-label="About Suttram"><img class="footer-logo" src="/assets/suttram-wordmark.png" alt="சுற்றம் — SUTTRAM" width="2048" height="1024" loading="lazy" /></a>
+      <span class="footer-tag">A PRAGALYA INITIATIVE</span>
     </div>
-    <div class="footer-lower">
-      <div class="container">
-        <p>© <span id="year">2026</span> Suttram · An initiative by Pragalya</p>
-        <nav class="footer-links" aria-label="Footer">
-          <a href="/about">About</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/terms">Terms of Service</a>
-          <a href="mailto:hello@pragalya.com">Contact</a>
+    <div class="footer-bottom">
+      <div class="shell footer-inner">
+        <small>© <span id="year">2026</span> Suttram · <span data-t="copyright">A Pragalya initiative</span></small>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/about" data-t="navAbout">About</a>
+          <a href="/privacy" data-t="privacyFull">Privacy Policy</a>
+          <a href="/terms" data-t="termsFull">Terms of Service</a>
+          <a href="mailto:hello@pragalya.com" data-t="contact">Contact</a>
         </nav>
       </div>
     </div>
   </footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <script>
+    const copy = {
+      en: {
+        navAbout:'About',navPrivacy:'Privacy',navTerms:'Terms',
+        eyebrow:'A PRAGALYA INITIATIVE · COMING SOON',
+        heroOne:'A closer circle',heroTwo:'is on its way.',
+        heroBody:'A thoughtful home for the people and moments that matter. Family spaces, occasions, gifts and memories — brought together, beautifully.',
+        discover:'Discover Suttram',explore:"What we're building",
+        platform:'Designed for iPhone & Android',languages:'தமிழ் + English',earlyLook:'A first look · App in development',
+        featuresTag:'THE HEART OF SUTTRAM',featuresHeading:'Made for the moments that bring us together.',
+        featuresBody:'Something meaningful is taking shape — around the way families connect, celebrate and remember.',
+        familyTitle:'Family Space',familyBody:'A space to bring loved ones closer, with family membership based on choice.',
+        occasionsTitle:'Occasions',occasionsBody:'Make room for birthdays, weddings, gatherings and every celebration that matters.',
+        giftsTitle:'Gifts & memories',giftsBody:'Keep a meaningful record of the gifts and thoughtful gestures shared along the way.',
+        privacyTag:'THOUGHTFULLY CONNECTED',quietOne:'Your people.',quietTwo:'Your space.',
+        quietBody:'Suttram is being designed to help families stay connected without becoming another public social feed. Learn more about our plans and how we approach privacy.',
+        privacyCta:'Read our Privacy Policy ↗',copyright:'A Pragalya initiative',privacyFull:'Privacy Policy',termsFull:'Terms of Service',contact:'Contact'
+      },
+      ta: {
+        navAbout:'அறிமுகம்',navPrivacy:'தனியுரிமை',navTerms:'விதிமுறைகள்',
+        eyebrow:'பிரகல்யாவின் முயற்சி · விரைவில் வருகிறது',
+        heroOne:'உங்கள் உறவுகள்',heroTwo:'இன்னும் நெருக்கமாக.',
+        heroBody:'அன்புக்குரியவர்களையும் முக்கியமான தருணங்களையும் ஒன்றிணைக்கும் இடம். குடும்பம், நிகழ்வுகள், பரிசுகள், நினைவுகள் — அனைத்தும் அழகாக ஒரே இடத்தில்.',
+        discover:'சுற்றத்தை அறிய',explore:'நாங்கள் உருவாக்குவது',
+        platform:'iPhone மற்றும் Android-க்காக',languages:'தமிழ் + English',earlyLook:'முதல் பார்வை · உருவாக்கத்தில் உள்ள செயலி',
+        featuresTag:'சுற்றத்தின் நோக்கம்',featuresHeading:'நம்மை ஒன்றிணைக்கும் தருணங்களுக்காக.',
+        featuresBody:'குடும்பங்கள் பழகும், கொண்டாடும், நினைவுகூரும் விதத்திற்கு ஏற்ற அனுபவம் உருவாகிறது.',
+        familyTitle:'குடும்ப இடம்',familyBody:'அன்புக்குரியவர்களை இணைக்கும் இடம். உறுப்பினராக இணைவது அவரவர் விருப்பம்.',
+        occasionsTitle:'நிகழ்வுகள்',occasionsBody:'பிறந்தநாள், திருமணம், குடும்பக் கூடல் என ஒவ்வொரு கொண்டாட்டத்திற்கும் ஓர் இடம்.',
+        giftsTitle:'பரிசுகளும் நினைவுகளும்',giftsBody:'பகிர்ந்த அன்பளிப்புகளையும் அருமையான தருணங்களையும் நினைவில் வைத்திட.',
+        privacyTag:'கவனமாக இணைக்கப்பட்ட உறவுகள்',quietOne:'உங்கள் உறவுகள்.',quietTwo:'உங்கள் இடம்.',
+        quietBody:'மற்றொரு பொது சமூக வலைத்தளமாக இல்லாமல், குடும்பங்களை இணைக்கும் இடமாக சுற்றம் உருவாகிறது. எங்கள் திட்டங்களையும் தனியுரிமை அணுகுமுறையையும் அறியுங்கள்.',
+        privacyCta:'தனியுரிமைக் கொள்கையைப் படிக்க ↗',copyright:'பிரகல்யாவின் முயற்சி',privacyFull:'தனியுரிமைக் கொள்கை',termsFull:'பயன்பாட்டு விதிமுறைகள்',contact:'தொடர்புக்கு'
+      }
+    };
+    const languageKey = 'suttram-site-language';
+    function setLanguage(value) {
+      const lang = copy[value] ? value : 'en';
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-t]').forEach(node => {
+        if (copy[lang][node.dataset.t]) node.textContent = copy[lang][node.dataset.t];
+      });
+      document.querySelectorAll('[data-lang]').forEach(button => {
+        button.setAttribute('aria-pressed', String(button.dataset.lang === lang));
+      });
+      document.querySelectorAll('[data-en-src]').forEach(image => {
+        const src = lang === 'ta' ? image.dataset.taSrc : image.dataset.enSrc;
+        if (src && image.getAttribute('src') !== src) image.setAttribute('src', src);
+      });
+      document.title = lang === 'ta' ? 'சுற்றம் — விரைவில் வருகிறது' : 'Suttram — Coming Soon';
+      try { localStorage.setItem(languageKey, lang); } catch (_) {}
+    }
+    document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+    let initialLanguage = 'en';
+    try { initialLanguage = localStorage.getItem(languageKey) || 'en'; } catch (_) {}
+    setLanguage(initialLanguage);
+    document.getElementById('year').textContent = String(new Date().getFullYear());
+  </script>
 </body>
 </html>

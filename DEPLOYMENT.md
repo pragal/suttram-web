@@ -4,7 +4,7 @@ Suttram / சுற்றம் — a Pragalya initiative.
 
 ## Contents
 
-- `/` — public Suttram homepage, ready for the future web app to replace. **No automatic redirect.**
+- `/` — bilingual (English / தமிழ்) official Coming Soon homepage, ready for the future web app to replace. **No automatic redirect.**
 - `/about` — full Suttram brand/marketing experience with English / தமிழ் language switching and real mobile previews.
 - `/privacy` — public Privacy Policy.
 - `/terms` — public Terms of Service.
@@ -37,6 +37,8 @@ Use the original supplied brand art without editing it:
 - `assets/suttram-icon.png` — approved Suttram app icon PNG
 - `assets/suttram-wordmark.png` — approved Suttram crimson wordmark PNG
 - `assets/suttram-wordmark.svg` — supplied wordmark SVG
+- `assets/suttram-wordmark-multicolor.png` — approved celebratory multicolour Suttram wordmark PNG
+- `assets/suttram-wordmark-multicolor.svg` — supplied celebratory wordmark SVG
 - `favicon.ico` — multi-size browser favicon (16, 32 and 48 px)
 - `assets/favicon-16x16.png` and `assets/favicon-32x32.png` — browser favicon PNGs
 - `assets/apple-touch-icon.png` — 180 px icon on the Suttram cream background for iPhone bookmarks
